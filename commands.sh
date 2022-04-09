@@ -17,11 +17,10 @@ flux create kustomization guestbook-gitops \
  --source=guestbook-gitops \
  --path="./deploy" \
  --prune=true \
- --validation=client \
  --interval=30m \
  --export > ./eksworkshop-eksctl/guestbook-gitops-sync.yaml
 
-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
+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
 
 flux get sources git
   
