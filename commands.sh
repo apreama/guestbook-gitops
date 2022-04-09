@@ -20,7 +20,7 @@ flux create kustomization guestbook-gitops \
  --interval=30m \
  --export > ./eksworkshop-eksctl/guestbook-gitops-sync.yaml
 
-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
+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
 
 flux get sources git
   
